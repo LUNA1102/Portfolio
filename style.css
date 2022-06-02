@@ -35,7 +35,6 @@ body {
 
 img {
     border-radius: 5px;
-    width: 500px;
 }
 
 .image {
@@ -74,6 +73,12 @@ img {
     font-size: 2.5rem;
 }
 
+.side-bar li:hover {
+    border-bottom: 4px solid black;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
 .text-a {
     display: inline-block;
     height: 500px;
@@ -104,6 +109,36 @@ img {
     display: inline-block;
     width: 500px;
     font-size: 1.1rem;
+}
+
+.content-a3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.text-a3 {
+    display: inline-block;
+    width: 1000px;
+    font-size: 1.1rem;
+}
+
+.image-ph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-a4 {
+    display: inline-block;
+    width: 400px;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
 }
 
 @media (max-width: 1370px) { 
