@@ -51,6 +51,7 @@ img {
     align-items: center;
     padding-bottom: 50px;
     border-bottom: 1px solid lightgray;
+    text-align: center;
 }
 
 .image-a {
@@ -81,7 +82,7 @@ img {
 
 .text-a {
     display: inline-block;
-    height: 500px;
+    height: 100%;
     margin:0;
 }
 
@@ -98,6 +99,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    text-align: center;
 }
 
 .image-a2 {
@@ -107,7 +109,7 @@ img {
 
 .text-a2 {
     display: inline-block;
-    width: 500px;
+    width: 100%;
     font-size: 1.1rem;
 }
 
@@ -119,11 +121,12 @@ img {
     margin-top: 50px;
     padding-bottom: 50px;
     border-bottom: 1px solid lightgray;
+    text-align: center;
 }
 
 .text-a3 {
     display: inline-block;
-    width: 1000px;
+    width: 100%;
     font-size: 1.1rem;
 }
 
@@ -136,7 +139,7 @@ img {
 
 .text-a4 {
     display: inline-block;
-    width: 400px;
+    width: 100%;
     font-size: 1.1rem;
     margin-bottom: 25px;
 }
@@ -152,9 +155,26 @@ h1 {
 }
 
 @media (max-width: 1088px) { 
+    .container .menu ul li {
+        margin: 0 5px;
+        font-size: 0.9rem;
+    }
+
     .content-a {
         display: flex;
         flex-direction: column;
+    }
+
+    .content-a img {
+        width: 100%;
+    }
+
+    .image-aa img {
+        margin-left: 20px;
+    }
+
+    .text-aa {
+        margin-left: 20px;
     }
 
     .content-a2 {
@@ -163,18 +183,29 @@ h1 {
         margin-bottom: 100px;
     }
 
+    .text-a2 {
+        display: inline-block;
+        width: 100%;
+        margin-left: 20px;
+    }
+
     .content-a3 img {
+        width: 100%;
+    }
+
+    .image-a2 img {
         width: 100%;
     }
 
     .text-a3 {
         display: inline-block;
-        width: 500px;
-        font-size: 1.1rem;
+        width: 100%;
+        margin-left: 20px;
     }
 
-    .container .menu ul li {
-        margin: 0 5px;
-        font-size: 0.9rem;
+    .text-a4 {
+        display: inline-block;
+        width: 100%;
+        margin-left: 20px;
     }
 }
