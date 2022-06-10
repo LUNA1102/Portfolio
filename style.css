@@ -4,61 +4,19 @@
     box-sizing: border-box;
     color: black;
     text-decoration: none;
-    font-family: 'Dongle', sans-serif;
 }
 
 body {
     height: 100vh;
 }
 
-.container .header {
-    width: 80%;
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container .header h1 {
-    margin: 0;
-    font-size: 5rem;
-}
-
-.container .header .menu li a:hover {
-    color:indianred;
-}
-
-.container .menu ul li {
-    display: inline-block;
-    margin: 0 20px;
-    font-size: 2rem;
-}
-
-img {
-    border-radius: 5px;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 20px white;
-    margin: 0;
-}
-
-.content-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-    border-bottom: 1px solid lightgray;
+.header h1 {
     text-align: center;
-}
-
-.image-a {
-    display: inline-block;
-    margin: 20px;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-family: 'Sacramento', cursive;
+    background-color: #d1c4e9;
+    margin: 0;
 }
 
 .side-bar {
@@ -66,6 +24,7 @@ img {
     position: fixed;
     left: 0;
     margin-left: 10%;
+    margin-top: 5%;
 }
 
 .side-bar li {
@@ -76,191 +35,248 @@ img {
     font-size: 2.5rem;
 }
 
-.side-bar li:hover {
-    border-bottom: 4px solid black;
-    border-radius: 2px;
-    transition: all 0.3s ease;
+#Home h2 {
+    margin-top: 50px;
 }
 
-.text-a {
+h2 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.AboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe-image {
+    margin: 20px 70px;
+}
+
+.AboutMe-image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.Book {
+    margin-top: 100px;
+}
+
+.Book-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Book-list-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Book-list-image {
     display: inline-block;
-    height: 500px;
-    margin:0;
+    margin: 5px 20px;
 }
 
-.image-aa {
+.Book-list-image img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.Book-list-text {
+    display: inline-block;
+    width: 500px;
+}
+
+.Plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Plan-image-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Plan-image-list-content {
+    margin: 20px;
+}
+
+.Plan-image-list-content img {
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.Plan-text {
+    display: inline-block;
+    width: 850px;
+}
+
+.Photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Photo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Photo-list-image img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.Photo-list-text {
+    display: inline-block;
+    width: 400px;
+}
+
+.Certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Certificate-list {
+    margin: 20px;
+}
+
+.Certificate-image img {
+    width: 250px;
+}
+
+.Certificate-text {
+    text-align: center;
+}
+
+.Practice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Practice-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Practice-content img {
+    width: 200px;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ede7f6;
+}
+
+.Contact-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
     margin-bottom: 10px;
+    margin-right: 20px;
 }
 
-.text-aa {
-    font-size: 1.3rem;
+.Contact-image img {
+    width: 50px;
 }
 
-.content-a2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    text-align: center;
-}
+@media (max-width: 767px){
 
-.image-a2 {
-    display: inline-block;
-    margin: 10px;
-}
-
-.text-a2 {
-    display: inline-block;
-    width: 500px;
-    font-size: 1.3rem;
-}
-
-.content-a3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid lightgray;
-    text-align: center;
-}
-
-.text-a3 {
-    display: inline-block;
-    width: 1000px;
-    font-size: 1.3rem;
-}
-
-.image-ph {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text-a4 {
-    display: inline-block;
-    width: 500px;
-    font-size: 1.3rem;
-    margin-bottom: 25px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 3rem;
-}
-
-.image-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-p1 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background-color:#FFDFDE;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.image-p2 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background-color:#E69A8D;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.image-c1 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background-color:#DCE2F0;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.image-c2 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    background-color:#9CC3D5;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-@media (max-width: 1370px) { 
-    .side-bar li {
+    .side-bar {
         display: none;
     }
-}
 
-@media (max-width: 1088px) { 
-    .container .menu ul li {
-        margin: 0 5px;
-        font-size: 0.8rem;
+    .AboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .content-a {
+    .AboutMe-image img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .AboutMe-text {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .Book-list {
         display: flex;
         flex-direction: column;
     }
 
-    .content-a img {
+    .Book-list-bottom {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Book-list-text {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .Plan-image-list {
+        display: block;
+    }
+
+    .Plan-image-list-content img {
+        width: 100%;
+    }
+    
+    .Plan-text {
+        display: inline-block;
+        width: 320px;
+    }
+
+    .Photo {
+        display: block;
+    }
+
+    .Photo-list img {
         width: 100%;
     }
 
-    .image-aa img {
-        width: 100%;
-        margin-left: 10px;
+    .Photo-list-text {
+        display: inline-block;
+        width: 320px;
     }
 
-    .text-aa {
-        margin-left: 20px;
-    }
-
-    .content-a2 {
+    .Certificate {
         display: flex;
         flex-direction: column;
-        margin-bottom: 100px;
+        justify-content: center;
     }
 
-    .text-a2 {
-        display: inline-block;
-        width: 100%;
-        margin-left: 20px;
-    }
-
-    .content-a3 img {
-        width: 100%;
-    }
-
-    .image-a2 img {
-        width: 100%;
-    }
-
-    .text-a3 {
-        display: inline-block;
-        width: 100%;
-        margin-left: 20px;
-    }
-
-    .text-a4 {
-        display: inline-block;
-        width: 100%;
-        margin-left: 20px;
-    }
-
-    .image-p {
+    .Practice {
         display: flex;
         flex-direction: column;
     }
+
 }
