@@ -37,18 +37,24 @@ body {
 
 #Home h2 {
     margin-top: 50px;
+    font-family: 'Gaegu', cursive;
+    font-size: 2rem;
 }
 
 h2 {
     text-align: center;
     margin: 20px;
     margin-top: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 2rem;
 }
 
 .AboutMe {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .AboutMe-image {
@@ -62,6 +68,8 @@ h2 {
 
 .Book {
     margin-top: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Book-list {
@@ -99,6 +107,8 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Plan-image-list {
@@ -127,6 +137,8 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Photo-list {
@@ -145,12 +157,15 @@ h2 {
 .Photo-list-text {
     display: inline-block;
     width: 400px;
+    margin-top: 20px;
 }
 
 .Certificate {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Certificate-list {
@@ -163,6 +178,7 @@ h2 {
 
 .Certificate-text {
     text-align: center;
+    margin-top: 10px;
 }
 
 .Practice {
@@ -170,6 +186,8 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Practice-content {
@@ -190,6 +208,8 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #ede7f6;
+    font-family: 'Gaegu', cursive;
+    font-size: 1.2rem;
 }
 
 .Contact-image {
@@ -279,4 +299,10 @@ h2 {
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 1200px) {
+    .side-bar {
+        display: none;
+    }
 }
